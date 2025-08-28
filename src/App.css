@@ -25,18 +25,18 @@
 
 .menubar-title {
   font-family: 'Pretendard';
-  font-size: 60px;
+  font-size: 55px;
   font-weight: 900;
   color: #413609;
   position: absolute; 
-  top: 130px;        
+  top: 120px;        
   left: 120px;
   margin: 0;
 }
 
 .menu {
   position: absolute;
-  top: 210px;
+  top: 198px;
   left: 120px;
 }
 
@@ -52,6 +52,6 @@
   font-family: 'Pretendard';
   font-weight: 500;
   color: #000000;
-  font-size: 20px;
+  font-size: 18px;
   text-decoration: none;
 }
