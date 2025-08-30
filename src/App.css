@@ -112,48 +112,6 @@
     height: auto;
 }
 
-.memo-bar {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 25px;
-    font-family: 'Pretendard';
-    text-align: center;
-}
-
-.memo1-container {
-    display: flex;
-    align-items: center;
-    gap: 9px;
-    margin-top: -43px;
-}
-
-.record-img {
-    width: 150px;
-    height: auto;
-    margin-left: -230px;
-}
-
-.memo1 {
-    font-family: 'Pretendard';
-    font-weight: 700;
-    font-size: 46px;
-    color: #413609;
-}
-
-.memo2 {
-    font-family: 'Pretendard';
-    font-weight: 700;
-    font-size: 46px;
-    color: #413609;
-    white-space: nowrap;
-    margin-left: -65px;
-}
-
 .memo-bar,
 .memo-bar * {
     background: none;
