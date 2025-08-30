@@ -1,5 +1,26 @@
 @font-face {
     font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Thin.woff') format('woff');
+    font-weight: 100;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Light.woff') format('woff');
+    font-weight: 300;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
     src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
     font-weight: 400;
     font-display: swap;
@@ -9,6 +30,27 @@
     font-family: 'Pretendard';
     src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Medium.woff') format('woff');
     font-weight: 500;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Bold.woff') format('woff');
+    font-weight: 700;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Pretendard';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-ExtraBold.woff') format('woff');
+    font-weight: 800;
     font-display: swap;
 }
 
@@ -57,7 +99,7 @@
 }
 
 .home-image {
-    position: relative;
+    position: relative; /* bar.png 기준으로 자식 요소 위치 조정 */
     margin-top: 350px;
     margin-left: 130px;
     display: inline-block;
@@ -68,6 +110,48 @@
     width: 100%;
     max-width: 1000px;
     height: auto;
+}
+
+.memo-bar {
+    position: absolute;
+    top: 50%;   /* 세로 중앙 */
+    left: 50%;  /* 가로 중앙 */
+    transform: translate(-50%, -50%); /* 중앙 정렬 */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    font-family: 'Pretendard';
+    text-align: center;
+}
+
+.memo1-container {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    margin-top: -43px;
+}
+
+.record-img {
+    width: 150px;
+    height: auto;
+    margin-left: -230px;
+}
+
+.memo1 {
+    font-family: 'Pretendard';
+    font-weight: 700;
+    font-size: 46px;
+    color: #413609;
+}
+
+.memo2 {
+    font-family: 'Pretendard';
+    font-weight: 700;
+    font-size: 46px; 
+    color: #413609;
+    white-space: nowrap;
+    margin-left: -65px;
 }
 
 .memo-bar,
